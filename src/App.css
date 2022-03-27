@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+
+.mylist {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.country {
+  color: red;
+  border: 1px solid red;
+  border-radius: 100%;
+  font-size: 10px;
+}
+
+body {
+  background-image: url(../image/backround.webp);
+  
+}
+
+.mycity {
+  border: 3px solid rgb(31, 107, 194);
+  width: 10rem;
+  border-radius: 10px;
+  background-color: rgb(236, 227, 227);
+  color: rgb(156, 126, 126);
+}
+
+.mybutton {
+  font-size: 2rem;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 2px 2px 5px ;
+  cursor: pointer;
+
+}
+
+.mybutton:hover {
+  box-shadow: 1px 1px 5px;
+}
+
+.myinput {
+  font-size: 2rem;
+  border-radius: 10px;
+  border: none;
+  
+}
